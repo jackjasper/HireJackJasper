@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'login-component',
@@ -9,7 +9,9 @@ import { Router } from '@angular/router';
 export class LoginComponent {
   default = "Enter your access key";
 
+  constructor(private router: Router) { }
+
   load() {
-    
+    this.router.navigate(['/success']);
   }
 }
