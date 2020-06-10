@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class ResumeComponent  {
   src = "https://jackjasper.github.io/HireJackJasper/assets/sample.pdf";
-  // src = "/src/assets/sample.pdf"
+  // src = "https://github.com/jackjasper/HireJackJasper/tree/master/src/assets/sample.pdf"
 }
