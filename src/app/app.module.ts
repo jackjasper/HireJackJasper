@@ -15,7 +15,7 @@ import { SuccessComponent } from './success/success.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: LoginComponent },
-      { path: 'success', component: SucessComponent }
+      { path: 'success', component: SuccessComponent }
     ])
   ],
   declarations: [
