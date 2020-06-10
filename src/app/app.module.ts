@@ -8,11 +8,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { HelloComponent } from './hello.component';
 import { SuccessComponent } from './success/success.component';
+import { ResumeComponent } from './success/resume/resume.component';
+
+import { PdfViewerModule } from 'ng2-pdf-viewer'; // <- import PdfViewerModule
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
+    PdfViewerModule,
     RouterModule.forRoot([
       { path: '', redirectTo: '/login', pathMatch: 'full' },
       { path: 'login', component: LoginComponent },
@@ -22,7 +26,9 @@ import { SuccessComponent } from './success/success.component';
   declarations: [
     AppComponent,
     HelloComponent,
-    LoginComponent
+    LoginComponent,
+    SuccessComponent,
+    ResumeComponent
   ],
   bootstrap: [ AppComponent ]
 })

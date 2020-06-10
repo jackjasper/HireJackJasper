@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './resume.component.html',
   styleUrls: [ './resume.component.css' ]
 })
-export class AppComponent  {
-  src = "https://jackjasper.github.io/assets/HireJackJasper/2020-06-08 15-51.pdf";
+export class ResumeComponent  {
+  src = "https://jackjasper.github.io/HireJackJasper/assets/sample.pdf";
+  // src = "/src/assets/sample.pdf"
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import {ResumeComponent} from './resume/resume.component';
 
 @Component({
   selector: 'success-component',
