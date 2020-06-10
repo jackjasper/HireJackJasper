@@ -10,6 +10,6 @@ export class LoginComponent {
   default = "Enter your access key";
 
   load() {
-    this.router.navigate(['/success'])
+    
   }
 }
