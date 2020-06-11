@@ -8,7 +8,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class LoginComponent {
   default = "Enter your access key";
-  pwd = "123";
+  pwd = "bethebest";
 
   constructor(private router: Router) { }
 
