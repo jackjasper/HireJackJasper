@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: [ './cover-letter.component.css' ]
 })
 export class CoverLetterComponent  {
-  src = "https://jackjasper.github.io/camera-app/sample.pdf";
+  src = "https://jackjasper.github.io/Hire-JackJasper/assets/coverletter.pdf";
 }
