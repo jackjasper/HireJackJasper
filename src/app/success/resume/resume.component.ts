@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: [ './resume.component.css' ]
 })
 export class ResumeComponent  {
-  src = "https://jackjasper.github.io/HireJackJasper/assets/sample.pdf";
-  // src = "https://github.com/jackjasper/HireJackJasper/tree/master/src/assets/sample.pdf"
+  src = "https://jackjasper.github.io/camera-app/sample.pdf";
 }
