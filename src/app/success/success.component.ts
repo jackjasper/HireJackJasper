@@ -7,5 +7,4 @@ import { Router } from '@angular/router';
   styleUrls: ['./success.component.css']
 })
 export class SuccessComponent {
-  name = "*"
 }
